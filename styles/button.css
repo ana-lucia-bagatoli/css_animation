@@ -1,0 +1,42 @@
+*
+    {
+        margin: 0;
+        padding:0;
+    }
+
+    body
+    {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: #111;
+        font-family: sans-serif;
+    }
+
+    .button 
+    {
+        background-color: red;
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        text-shadow: 0 3px 2px black;
+        /* transition-property: width, box-shadow; */
+        transition-property: all;
+        transition-duration:1s ;
+    }
+    /* animation button */
+    .button:hover 
+    {
+        box-shadow: 0 0 30px red;
+        /* width: 700px;
+        background-color: blue; */
+        text-shadow: 0 0 3px white ;
+    }
